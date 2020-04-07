@@ -28,14 +28,11 @@ spec:
     max: 1
   resources:
     limits:
-      cpu: 900m
-      memory: 2Gi
+      cpu: 400m
+      memory: 1Gi
     requests:
-      cpu: 900m
-      memory: 2Gi
-  prometheus:
-    enabled: true
-    path: /metrics
+      cpu: 600m
+      memory: 1Gi
   cpuThresholdPercentage: 80
   port: 1337
   env:

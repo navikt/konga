@@ -1,0 +1,2 @@
+ARG KONGA_VERSION=0.14.7
+FROM pantsel/konga:${KONGA_VERSION}
